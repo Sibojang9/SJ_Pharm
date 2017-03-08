@@ -1,0 +1,26 @@
+Package: PKPDsim
+Type: Package
+Title: Simulate ODE models
+Version: 0.4
+Date: 2016-08-19
+Author: Ron Keizer
+Maintainer: Ron Keizer <ronkeizer@gmail.com>
+Depends:
+    R (>= 3.0.2)
+Imports:
+    Rcpp,
+    BH,
+    dplyr,
+    data.table,
+    MASS,
+    lubridate,
+    MASS,
+    randtoolbox,
+    jsonlite,
+    stats
+Description: Simulate dose regimens for PKPD models described by DE systems or analytical equations.
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests:
+    testit
+RoxygenNote: 5.0.1
